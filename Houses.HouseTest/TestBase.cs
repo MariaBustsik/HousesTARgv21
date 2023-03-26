@@ -1,4 +1,4 @@
-using Houses.ApplicationServices.Services;
+﻿using Houses.ApplicationServices.Services;
 using Houses.Core.ServiceInerface;
 using Houses.Data;
 using Houses.HouseTest.Macros;
@@ -6,10 +6,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.DependencyInjection;
 using System;
+using System.Collections.Generic;
 using System.Linq;
-using Xunit;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace HouseTest
+namespace Houses.HouseTest
 {
     public class TestBase : IDisposable
     {
@@ -66,3 +68,4 @@ namespace HouseTest
         }
     }
 }
+
